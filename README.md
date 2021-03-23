@@ -1,24 +1,30 @@
-# README
+# Bite-Bank
+[Front End] (https://github.com/chay-chay/recipes-frontend)
+![bite-Bank](https://user-images.githubusercontent.com/72841865/112180492-fc2a7a00-8bd1-11eb-8b82-d5483b255d21.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my final project of school and use React & Redux. Bite Bank is a media storage platform dedicated to the culinary arts. It allows for quick reference to cooking videos of interest by keeping a record of those you would like to flag and return to in the future. Easily searchable by name, category, and ethnicity…Bite Bank is a useful tool for any chef!
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Get started!
 
-* Database creation
+Click on the link to run the live web application here [].
 
-* Database initialization
+## My blog & Walkthrough video
 
-* How to run the test suite
+If you would like to check my blog, here is [My Blog](https://chayanit-chaisri.medium.com/react-redux-how-to-update-the-filters-after-adding-and-editing-a-form-f799a1eec22c) and [Walkthrough video](https://youtu.be/mVHMsb0lXLw)
+    
+## Contributors 
 
-* Services (job queues, cache servers, search engines, etc.)
+This is my project for Flatiron. If you're interested in my code, please feel free to contact me at [chayanit.chaisri@gmail.com](mailto:chayanit.chaisri@gmail.com)
 
-* Deployment instructions
+## License
 
-* ...
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT)
+
+## Resource
+
+- [Clipartmax](https://www.clipartmax.com/)
+- [Pexels](https://www.pexels.com/)
+- [TheMealDB](https://www.themealdb.com/api.php)
