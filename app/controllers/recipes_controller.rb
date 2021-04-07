@@ -14,15 +14,15 @@ class RecipesController < ApplicationController
 
     # POST /recipes
     def create
-        recipe = Recipe.create(recipe_params)   
-        render json: recipe
-        # recipe = Recipe.new(recipe_params)
+        # recipe = Recipe.create(recipe_params)   
+        # render json: recipe
+        recipe = Recipe.new(recipe_params)
        
-        # if recipe.save
-        #     render json: recipe
-        # else
-        #     render json: {message: "errors"}
-        # end
+        if recipe.save
+            render json: recipe
+        else
+            render json: {message: "errors"}
+        end
     end
 
      # PATCH/PUT /recipes/1
