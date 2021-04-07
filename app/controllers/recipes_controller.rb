@@ -15,13 +15,9 @@ class RecipesController < ApplicationController
     # POST /recipes
     def create
         recipe = Recipe.create(recipe_params)   
-        
+        render json: recipe
 
-        if recipe.save
-            render json: recipe
-          else
-            render json: recipe.errors.full_messages, status: :unprocessable_entity
-          end
+        
     end
 
      # PATCH/PUT /recipes/1
